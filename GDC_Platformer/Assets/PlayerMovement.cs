@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 { 
     private Vector3 respawnPoint; //creates a respawn point
-    public GameObject fallDetector; 
+    public GameObject fallDetector;
     
     private Rigidbody2D rb;
     // Start is called before the first frame update
@@ -40,5 +40,9 @@ public class PlayerMovement : MonoBehaviour
         {
             respawnPoint = transform.position;
         }
+    }
+    void OnCollisionEnter2D(Collision2D collision) {
+        if(collision.collider.tag == "Spike")
+            Debug.Log("Collided with spike");
     }
 }
