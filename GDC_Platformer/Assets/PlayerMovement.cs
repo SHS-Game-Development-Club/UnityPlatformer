@@ -8,7 +8,6 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        Debug.Log("Hello world");
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -19,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(dirX * 7f, rb.velocity.y);
 
         if (Input.GetButtonDown("Jump")){
-            rb.velocity = new Vector2(rb.velocity.x, 8f);
+            rb.velocity = new Vector2(rb.velocity.x, 10f);
         }
     }
 }
