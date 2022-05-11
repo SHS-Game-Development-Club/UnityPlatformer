@@ -19,18 +19,43 @@ public class PlayerMovement : MonoBehaviour {
     public float fallGravityM;
     public float gravityScale;
 
+	private bool isJumping;
+
+	private float coyoteTime = 0.2f;
+	private float coyoteTimeCounter;
+
+	private float jumpBufferTime = 0.2f;
+	private float jumpBufferCounter;
+
     private void Start() {
 		playerScript = GetComponent<Player>();
     }
 
     private void Update() {
-		
     }
 
 	void FixedUpdate() {
-		Jump();
         Move();
-		//Fall Gravity
+		//Jump
+		if(playerScript.collision.isGrounded())
+			coyoteTimeCounter = coyoteTime;
+		else
+			coyoteTimeCounter -= Time.deltaTime;
+
+		if(Input.GetButtonDown("Jump"))
+			jumpBufferCounter = jumpBufferTime;
+		else
+			jumpBufferCounter -= Time.deltaTime;
+
+		if(coyoteTimeCounter > 0 && jumpBufferCounter > 0f && !isJumping) {
+			playerScript.rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+			jumpBufferCounter = 0f;
+			StartCoroutine(JumpCD());
+		}
+		if(Input.GetButtonUp("Jump") && playerScript.rb.velocity.y > 0f) {
+			playerScript.rb.AddForce(Vector2.down * playerScript.rb.velocity.y * (1 - jumpCutM), ForceMode2D.Impulse);
+			coyoteTimeCounter = 0f;
+		}
         if(playerScript.rb.velocity.y < 10)
             playerScript.rb.gravityScale = gravityScale * fallGravityM;
         else 
@@ -55,16 +80,10 @@ public class PlayerMovement : MonoBehaviour {
 			playerScript.rb.AddForce(-amount * Vector2.right, ForceMode2D.Impulse);
 		}
 	}
-    public void Jump() {
-		if(Input.GetButtonDown("Jump") && playerScript.collision.isGrounded()) {
-			playerScript.rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-		}
-		//if(playerScript.rb.velocity.y < 0.01f && playerScript.collision.isGrounded()) {
-		//	anim.SetBool("Jumping", false);
-		//}
-		//if(Input.GetButtonUp("Jump") && playerScript.rb.velocity.y > 0f) {
-			//playerScript.rb.AddForce(Vector2.down * playerScript.rb.velocity.y * (1 - jumpCutM), ForceMode2D.Impulse);
-			//jumpReleased = 0;
-		//}
+
+	public IEnumerator JumpCD() {
+		isJumping = true;
+		yield return new WaitForSeconds(0.4f);
+		isJumping = false;
 	}
 }

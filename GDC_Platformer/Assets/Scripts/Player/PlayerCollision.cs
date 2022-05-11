@@ -7,7 +7,6 @@ public class PlayerCollision : MonoBehaviour {
 	Player player;
     public LayerMask groundLayer;
     public Transform groundCheck;
-    public Vector2 bottom;
     private Vector3 respawnPoint; //creates a respawn point
     public GameObject fallDetector;
 
@@ -31,7 +30,9 @@ public class PlayerCollision : MonoBehaviour {
             respawnPoint = transform.position;
     }
     void OnCollisionEnter2D(Collision2D collision) {
-        if(collision.collider.tag == "Spike")
+        if(collision.collider.tag == "Spike") {
+			transform.position = respawnPoint;
             Debug.Log("Collided with spike");
+		}
     }
 }

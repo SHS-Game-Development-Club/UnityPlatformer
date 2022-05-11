@@ -7,7 +7,6 @@ public class PlayerCollision : MonoBehaviour {
 	Player player;
     public LayerMask groundLayer;
     public Transform groundCheck;
-    public Vector2 bottom;
     private Vector3 respawnPoint; //creates a respawn point
     public GameObject fallDetector;
 
@@ -26,9 +25,9 @@ public class PlayerCollision : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.tag  == "FallDetector")
-            player.transform.position = respawnPoint;  //resets player's position to respawn point if they fall
+            transform.position = respawnPoint;  //resets player's position to respawn point if they fall
         else if (collision.tag == "Checkpoint")
-            respawnPoint = player.transform.position;
+            respawnPoint = transform.position;
     }
     void OnCollisionEnter2D(Collision2D collision) {
         if(collision.collider.tag == "Spike")
