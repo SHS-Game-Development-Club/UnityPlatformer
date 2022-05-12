@@ -10,10 +10,12 @@ public class Player : MonoBehaviour {
 	
 	internal Rigidbody2D rb;
 	internal SpriteRenderer sr;
+	internal Animator anim;
 
     void Start() {
  		rb = GetComponent<Rigidbody2D>();
 		sr = GetComponent<SpriteRenderer>();
+		anim = GetComponent<Animator>();
 
 		move = GetComponent<PlayerMovement>();
 		collision = GetComponent<PlayerCollision>();

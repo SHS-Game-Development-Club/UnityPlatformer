@@ -18,25 +18,25 @@ public class PlayerMovement : MonoBehaviour {
     public float jumpCutM;
     public float fallGravityM;
     public float gravityScale;
-
 	private bool isJumping;
 
+	[Header("Coyote Time & Jump Buffering")]
 	private float coyoteTime = 0.2f;
 	private float coyoteTimeCounter;
-
 	private float jumpBufferTime = 0.2f;
 	private float jumpBufferCounter;
+
+	//animation stuff
+	const string idle = "Player_Idle";
+	const string run = "Player_Run";
+	const string jump = "Player_Jump";
+	private string curState = "Player_Idle";
 
     private void Start() {
 		playerScript = GetComponent<Player>();
     }
 
     private void Update() {
-    }
-
-	void FixedUpdate() {
-        Move();
-		//Jump
 		if(playerScript.collision.isGrounded())
 			coyoteTimeCounter = coyoteTime;
 		else
@@ -48,23 +48,31 @@ public class PlayerMovement : MonoBehaviour {
 			jumpBufferCounter -= Time.deltaTime;
 
 		if(coyoteTimeCounter > 0 && jumpBufferCounter > 0f && !isJumping) {
-			playerScript.rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+			playerScript.rb.velocity = new Vector2(playerScript.rb.velocity.x, jumpForce);
 			jumpBufferCounter = 0f;
 			StartCoroutine(JumpCD());
 		}
-		if(Input.GetButtonUp("Jump") && playerScript.rb.velocity.y > 0f) {
-			playerScript.rb.AddForce(Vector2.down * playerScript.rb.velocity.y * (1 - jumpCutM), ForceMode2D.Impulse);
-			coyoteTimeCounter = 0f;
-		}
+		// if(Input.GetButtonUp("Jump") && playerScript.rb.velocity.y > 0f) {
+		// 	playerScript.rb.velocity = new Vector2(playerScript.rb.velocity.x, playerScript.rb.velocity.y * (1 - jumpCutM));
+		// 	coyoteTimeCounter = 0f;
+		// }
         if(playerScript.rb.velocity.y < 10)
             playerScript.rb.gravityScale = gravityScale * fallGravityM;
         else 
             playerScript.rb.gravityScale = gravityScale;
+    }
+
+	void FixedUpdate() {
+        Move();
 	}
 
 	public void Move() {
-		if(Input.GetAxisRaw("Horizontal") != 0)
+		if(Input.GetAxisRaw("Horizontal") != 0) {
 			playerScript.sr.flipX = (Input.GetAxisRaw("Horizontal") == 1 ? false : true);
+			updAnim(run);
+		} else {
+			updAnim(idle);
+		}
 
         float targetSpeed = Input.GetAxisRaw("Horizontal") * moveSpeed;
         float speedDiff = targetSpeed - playerScript.rb.velocity.x;
@@ -85,5 +93,12 @@ public class PlayerMovement : MonoBehaviour {
 		isJumping = true;
 		yield return new WaitForSeconds(0.4f);
 		isJumping = false;
+	}
+
+	void updAnim(string newState) {
+		if(curState == newState)
+			return;
+		playerScript.anim.Play(newState);
+		curState = newState;
 	}
 }

@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54243
+56267
 Successfully changed project path to: /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer
 /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 77.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Assets
 GfxDevice: creating device client; threaded=0
-2022-05-10 13:32:50.413 Unity[6009:126544] Color LCD preferred device: Intel HD Graphics 4000 (low power)
-2022-05-10 13:32:50.413 Unity[6009:126544] Metal devices available: 1
-2022-05-10 13:32:50.413 Unity[6009:126544] 0: Intel HD Graphics 4000 (low power)
-2022-05-10 13:32:50.414 Unity[6009:126544] Using device Intel HD Graphics 4000 (low power)
+2022-05-11 13:00:09.920 Unity[9882:178120] Color LCD preferred device: Intel HD Graphics 4000 (low power)
+2022-05-11 13:00:09.920 Unity[9882:178120] Metal devices available: 1
+2022-05-11 13:00:09.920 Unity[9882:178120] 0: Intel HD Graphics 4000 (low power)
+2022-05-11 13:00:09.921 Unity[9882:178120] Using device Intel HD Graphics 4000 (low power)
 Initializing Metal device caps: Intel HD Graphics 4000
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56009
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56882
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000913 seconds.
+Registered in 0.000863 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 77.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.178 seconds
+- Completed reload, in  1.159 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1178ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (1160ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (966ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (948ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
+			SetupTypeCache (365ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (383ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (359ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003552 seconds.
+Registered in 0.002411 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 89.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.457 seconds
+- Completed reload, in  2.211 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2459ms)
-		BeginReloadAssembly (359ms)
+	ReloadAssembly (2212ms)
+		BeginReloadAssembly (296ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (1887ms)
-			LoadAssemblies (194ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1800ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (647ms)
+			SetupTypeCache (673ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (722ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (629ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (144ms)
-				ProcessInitializeOnLoadAttributes (442ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.005326 seconds.
+Validating Project structure ... 0.005824 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.007265 seconds.
+Upgrading shader files ...0.007413 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -143,848 +143,32 @@ Initializing Unity extensions:
 [C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{87CA235C-25C0-7320-99B1-B19FE9F672C1}"
 [C# Project]   007: EndProject
 [C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mathematics", "Unity.Mathematics.csproj", "{7B78DCA0-6200-80C6-1F0B-791540C190A9}"
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.Tests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEngine.TestRunner.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEngine.TestRunner.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEngine.TestRunner.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Mathematics.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Mathematics.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Mathematics.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.Triangle.Runtime.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.Triangle.Runtime.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.Triangle.Runtime.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEngine.UI.Tests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEngine.UI.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEngine.UI.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Timeline.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Timeline.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Timeline.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEngine.UI.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEngine.UI.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEngine.UI.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.Runtime.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.Runtime.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.Runtime.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.IK.Runtime.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.IK.Runtime.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.IK.Runtime.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.SpriteShape.Runtime.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.SpriteShape.Runtime.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.SpriteShape.Runtime.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
 [C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Assembly-CSharp.csproj because it has changed
-[C# Project] First difference on line 619
+[C# Project] First difference on line 620
 
 [C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Assembly-CSharp.csproj:
-[C# Project]   619:  <Reference Include="Unity.2D.Animation.Editor">
-[C# Project]   620:  <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
-[C# Project]   621:  </Reference>
-[C# Project]   622:  <Reference Include="Unity.InternalAPIEngineBridge.001">
-[C# Project]   623:  <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+[C# Project]   620:  <Reference Include="Unity.2D.Animation.Editor">
+[C# Project]   621:  <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+[C# Project]   622:  </Reference>
+[C# Project]   623:  <Reference Include="Unity.InternalAPIEngineBridge.001">
+[C# Project]   624:  <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
 
 [C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Assembly-CSharp.csproj:
-[C# Project]   619:   </ItemGroup>
-[C# Project]   620:   <ItemGroup>
-[C# Project]   621:     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
-[C# Project]   622:       <Project>{3BB5AA2C-33EB-96C9-064A-DC4D1541D366}</Project>
-[C# Project]   623:       <Name>Unity.2D.Animation.Editor</Name>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Common.Runtime.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Common.Runtime.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Common.Runtime.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.Tests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.InternalAPIEngineBridge.001.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.InternalAPIEngineBridge.001.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.InternalAPIEngineBridge.001.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEditor.TestRunner.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEditor.TestRunner.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEditor.TestRunner.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.PlasticSCM.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.PlasticSCM.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.PlasticSCM.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEditor.UI.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEditor.UI.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEditor.UI.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Services.Core.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Services.Core.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Services.Core.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Timeline.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Timeline.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Timeline.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.VisualStudio.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.VisualStudio.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.VisualStudio.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Psdimporter.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Psdimporter.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Psdimporter.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.SpriteShape.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.SpriteShape.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.SpriteShape.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.CollabProxy.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.CollabProxy.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.CollabProxy.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/PsdPlugin.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/PsdPlugin.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/PsdPlugin.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/DocCodeExamples.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/DocCodeExamples.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/DocCodeExamples.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Path.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Path.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Path.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Mathematics.Tests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Mathematics.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Mathematics.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.PlasticSCM.EditorTests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.PlasticSCM.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.PlasticSCM.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Rider.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Rider.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Rider.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEditor.UI.EditorTests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEditor.UI.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/UnityEditor.UI.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.CollabProxy.EditorTests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.CollabProxy.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.CollabProxy.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.IK.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.IK.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.IK.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.SpriteShape.EditorTests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.SpriteShape.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.SpriteShape.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Sprite.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Sprite.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Sprite.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Tilemap.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Tilemap.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Tilemap.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.VSCode.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.VSCode.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.VSCode.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Common.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Common.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Common.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Mathematics.Editor.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Mathematics.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.Mathematics.Editor.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.Editor.Tests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.Editor.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.PixelPerfect.Editor.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Common.EditorTests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Common.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Common.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Path.Tests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Path.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Path.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.InternalAPIEditorBridge.001.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.InternalAPIEditorBridge.001.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.InternalAPIEditorBridge.001.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Tilemap.Package.EditorTests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Tilemap.Package.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Tilemap.Package.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Psdimporter.EditorTests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Psdimporter.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Psdimporter.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Sprite.Package.EditorTests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Sprite.Package.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Sprite.Package.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.Editor.Tests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.Editor.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.TextMeshPro.Editor.Tests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-[C# Project] Writing /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.EditorTests.csproj because it has changed
-[C# Project] First difference on line 5
-
-[C# Project] Current /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-
-[C# Project] New /Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Unity.2D.Animation.EditorTests.csproj:
-[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
-[C# Project]   007:   </PropertyGroup>
-[C# Project]   008:   <PropertyGroup>
-[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   620:   </ItemGroup>
+[C# Project]   621:   <ItemGroup>
+[C# Project]   622:     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
+[C# Project]   623:       <Project>{3BB5AA2C-33EB-96C9-064A-DC4D1541D366}</Project>
+[C# Project]   624:       <Name>Unity.2D.Animation.Editor</Name>
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2203 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 211.9 MB.
-System memory in use after: 211.1 MB.
+System memory in use after: 211.2 MB.
 
-Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 2679.
-Total: 6.771269 ms (FindLiveObjects: 0.340292 ms CreateObjectMapping: 0.276164 ms MarkObjects: 5.347379 ms  DeleteObjects: 0.805680 ms)
+Unloading 101 unused Assets to reduce memory usage. Loaded Objects now: 2680.
+Total: 6.256707 ms (FindLiveObjects: 0.366097 ms CreateObjectMapping: 0.284585 ms MarkObjects: 4.827033 ms  DeleteObjects: 0.777249 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -998,134 +182,110 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Idle.png
-  artifactKey: Guid(bd81b5047dfe26347b771457d404e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Idle.png using Guid(bd81b5047dfe26347b771457d404e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6097313a733792654c6dd41e8e56893c') in 0.906272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/PlayerMovement.cs
-  artifactKey: Guid(a59ec9260fa44dd4ea105f57e6aed90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerMovement.cs using Guid(a59ec9260fa44dd4ea105f57e6aed90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c523bb8454cf484d409eb9da5ca9f1') in 0.686517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Idle.prefab
-  artifactKey: Guid(6bb77a3f442fb784d9810dfdf97f15d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Idle.prefab using Guid(6bb77a3f442fb784d9810dfdf97f15d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbd0a596c804dab51ad63033f373daf') in 0.594057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/Terrain.prefab
-  artifactKey: Guid(ed96628d9a598524eadc16b1827f8235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain.prefab using Guid(ed96628d9a598524eadc16b1827f8235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80534fdc965b1609a1a4b4759c1975b5') in 0.122589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/PMovement.cs
-  artifactKey: Guid(bbf7761f8a4385b419f7541343d7bc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PMovement.cs using Guid(bbf7761f8a4385b419f7541343d7bc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95961b0802b2cca4b49c6723bf2df324') in 0.004247 seconds 
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acb42c1ff548894f345356be7d9affc') in 0.656627 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002222 seconds.
+Registered in 0.002264 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.109 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2109ms)
-		BeginReloadAssembly (200ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (107ms)
-		EndReloadAssembly (1795ms)
-			LoadAssemblies (119ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (678ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (648ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (193ms)
-				ProcessInitializeOnLoadAttributes (415ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 222.9 MB.
-System memory in use after: 223.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2692.
-Total: 5.499177 ms (FindLiveObjects: 0.310035 ms CreateObjectMapping: 0.272141 ms MarkObjects: 4.863818 ms  DeleteObjects: 0.051364 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002252 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.155 seconds
+- Completed reload, in  2.143 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2155ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (2144ms)
+		BeginReloadAssembly (226ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (110ms)
-		EndReloadAssembly (1803ms)
-			LoadAssemblies (139ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (1781ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (727ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (599ms)
+			SetupTypeCache (674ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (615ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (173ms)
-				ProcessInitializeOnLoadAttributes (390ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.5 MB.
+System memory in use after: 214.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2684.
+Total: 4.823666 ms (FindLiveObjects: 0.322409 ms CreateObjectMapping: 0.233224 ms MarkObjects: 4.235313 ms  DeleteObjects: 0.031233 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2411ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (2056ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (894ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (688ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (455ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 223.2 MB.
-System memory in use after: 223.3 MB.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.7 MB.
+System memory in use after: 214.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2695.
-Total: 5.067746 ms (FindLiveObjects: 0.318675 ms CreateObjectMapping: 0.240735 ms MarkObjects: 4.463161 ms  DeleteObjects: 0.043606 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2687.
+Total: 5.308197 ms (FindLiveObjects: 0.301942 ms CreateObjectMapping: 0.234267 ms MarkObjects: 4.727445 ms  DeleteObjects: 0.042985 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1138,73 +298,261 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 195.628885 seconds.
-  path: Assets/PlayerMovement.cs
-  artifactKey: Guid(a59ec9260fa44dd4ea105f57e6aed90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerMovement.cs using Guid(a59ec9260fa44dd4ea105f57e6aed90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1241faa4c24041d61a64e7dbc606d507') in 0.009008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 882.115801 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(baf0a5996fc3fb845ab7368ff6f6328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(baf0a5996fc3fb845ab7368ff6f6328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f232bdc06836879fb913e091186e799d') in 0.017157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.225461 seconds.
-  path: Assets/Pixel Adventure 1
-  artifactKey: Guid(4f934e549fc33fb4090fbf87cc6b2734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1 using Guid(4f934e549fc33fb4090fbf87cc6b2734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d56f999c80fd00248f1b06d73d508a1') in 0.004063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.199021 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(d00f0dfe4997fe94dbffd0c8acfff677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(d00f0dfe4997fe94dbffd0c8acfff677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84330bdfd55d29a06f4271b35e85175') in 0.023005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.618688 seconds.
-  path: Assets/Materials/Idle.mat
-  artifactKey: Guid(003367c58411fe44abbf6bc07817b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Idle.mat using Guid(003367c58411fe44abbf6bc07817b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0637eccf430555216b6a04234989ea59') in 0.327654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.233060 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(e1067121f52bb4028adbeed437aaa21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(e1067121f52bb4028adbeed437aaa21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66285fc9af0aeff3d81087818715c129') in 0.024104 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2201ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (114ms)
+		EndReloadAssembly (1865ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (655ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (706ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (479ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.9 MB.
+System memory in use after: 215.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2690.
+Total: 5.052681 ms (FindLiveObjects: 0.375715 ms CreateObjectMapping: 0.250075 ms MarkObjects: 4.395313 ms  DeleteObjects: 0.029894 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002268 seconds.
+Registered in 0.002400 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.209 seconds
 Domain Reload Profiling:
 	ReloadAssembly (2209ms)
-		BeginReloadAssembly (222ms)
+		BeginReloadAssembly (262ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (124ms)
-		EndReloadAssembly (1857ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (142ms)
+		EndReloadAssembly (1786ms)
+			LoadAssemblies (172ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (704ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (117ms)
-			SetupLoadedEditorAssemblies (635ms)
+			SetupTypeCache (659ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (633ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.0 MB.
+System memory in use after: 215.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2693.
+Total: 7.558640 ms (FindLiveObjects: 0.553157 ms CreateObjectMapping: 0.317381 ms MarkObjects: 6.649470 ms  DeleteObjects: 0.036676 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002340 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.080 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2080ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (1754ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (650ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (627ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.2 MB.
+System memory in use after: 215.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 5.619969 ms (FindLiveObjects: 0.407394 ms CreateObjectMapping: 0.256503 ms MarkObjects: 4.915907 ms  DeleteObjects: 0.037999 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002332 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.155 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2156ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (1837ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (740ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (630ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (188ms)
-				ProcessInitializeOnLoadAttributes (413ms)
+				ProcessInitializeOnLoadAttributes (407ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.4 MB.
+System memory in use after: 215.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2699.
+Total: 5.221124 ms (FindLiveObjects: 0.353236 ms CreateObjectMapping: 0.273579 ms MarkObjects: 4.555191 ms  DeleteObjects: 0.037078 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2036ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (1690ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (630ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (599ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (383ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -1212,12 +560,12 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2190 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 230.3 MB.
-System memory in use after: 230.5 MB.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.6 MB.
+System memory in use after: 215.7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2731.
-Total: 5.055509 ms (FindLiveObjects: 0.330447 ms CreateObjectMapping: 0.258039 ms MarkObjects: 4.432777 ms  DeleteObjects: 0.032616 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 4.789490 ms (FindLiveObjects: 0.304156 ms CreateObjectMapping: 0.228362 ms MarkObjects: 4.224332 ms  DeleteObjects: 0.030994 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1230,112 +578,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 18.314767 seconds.
-  path: Assets/Scripts/Player
-  artifactKey: Guid(e63b27e74e5cb4921a96c0760ae5f37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player using Guid(e63b27e74e5cb4921a96c0760ae5f37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04620aeed9feea8e01f8a2d435ad6d75') in 0.028569 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002441 seconds.
+Registered in 0.004954 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.053 seconds
+- Completed reload, in  2.168 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2054ms)
-		BeginReloadAssembly (221ms)
+	ReloadAssembly (2169ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (120ms)
-		EndReloadAssembly (1701ms)
-			LoadAssemblies (133ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (1830ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (670ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (576ms)
+			SetupTypeCache (758ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (591ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (375ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2190 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 230.5 MB.
-System memory in use after: 230.7 MB.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.8 MB.
+System memory in use after: 215.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2734.
-Total: 5.411367 ms (FindLiveObjects: 0.335844 ms CreateObjectMapping: 0.261782 ms MarkObjects: 4.778035 ms  DeleteObjects: 0.034159 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002410 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.593 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2594ms)
-		BeginReloadAssembly (215ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (115ms)
-		EndReloadAssembly (2243ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (787ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (883ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (197ms)
-				ProcessInitializeOnLoadAttributes (614ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2190 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 230.7 MB.
-System memory in use after: 230.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2737.
-Total: 6.989771 ms (FindLiveObjects: 0.433704 ms CreateObjectMapping: 0.490576 ms MarkObjects: 6.022691 ms  DeleteObjects: 0.040811 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 5.229278 ms (FindLiveObjects: 0.322695 ms CreateObjectMapping: 0.237341 ms MarkObjects: 4.635005 ms  DeleteObjects: 0.032733 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1349,123 +635,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.658131 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(93b19dc499c874b0583613ed5578e35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(93b19dc499c874b0583613ed5578e35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7122fa19c77036f5b524607bd0821e71') in 0.018603 seconds 
+  Time since last request: 404.007071 seconds.
+  path: Assets/Smooth.physicMaterial
+  artifactKey: Guid(c1cf9fc05805d43b6bc13db185b33d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Smooth.physicMaterial using Guid(c1cf9fc05805d43b6bc13db185b33d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3f0063406ec8b0329c43172f29f810') in 0.229507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.623684 seconds.
+  path: Assets/Smooth.physicMaterial
+  artifactKey: Guid(c1cf9fc05805d43b6bc13db185b33d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Smooth.physicMaterial using Guid(c1cf9fc05805d43b6bc13db185b33d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04014f83f4a1833b735d086a82fc7264') in 0.009748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.701692 seconds.
+  path: Assets/Smooth.physicsMaterial2D
+  artifactKey: Guid(3143aa6dd34504cbc91c6303364084eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Smooth.physicsMaterial2D using Guid(3143aa6dd34504cbc91c6303364084eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3962fe7129da15de12c4c707387f84') in 0.226479 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002255 seconds.
+Registered in 0.002911 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.191 seconds
+- Completed reload, in  2.059 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2191ms)
-		BeginReloadAssembly (231ms)
+	ReloadAssembly (2060ms)
+		BeginReloadAssembly (204ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (127ms)
-		EndReloadAssembly (1830ms)
-			LoadAssemblies (133ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (1735ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (726ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (618ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (184ms)
-				ProcessInitializeOnLoadAttributes (400ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 231.0 MB.
-System memory in use after: 231.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2741.
-Total: 5.052348 ms (FindLiveObjects: 0.384819 ms CreateObjectMapping: 0.306905 ms MarkObjects: 4.326561 ms  DeleteObjects: 0.032850 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 12.806210 seconds.
-  path: Assets/Scripts/Player/PlayerCollision
-  artifactKey: Guid(aee9d1ac2c1eb4fedbb6d9748dae3ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerCollision using Guid(aee9d1ac2c1eb4fedbb6d9748dae3ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dea9aa89ce5b00cbf97290247be5da') in 0.031461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.991481 seconds.
-  path: Assets/Scripts/Player/PlayerCollision.cs
-  artifactKey: Guid(3dc524cba30984804a600d3da33aa111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerCollision.cs using Guid(3dc524cba30984804a600d3da33aa111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8c4a3fe121a5167503f8dd87f5ca9c') in 0.016474 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002195 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.209 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2210ms)
-		BeginReloadAssembly (209ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (112ms)
-		EndReloadAssembly (1862ms)
-			LoadAssemblies (136ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (708ms)
+			SetupTypeCache (636ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (651ms)
+			SetupLoadedEditorAssemblies (625ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (178ms)
-				ProcessInitializeOnLoadAttributes (429ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (402ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 231.2 MB.
-System memory in use after: 231.4 MB.
+System memory in use before: 224.2 MB.
+System memory in use after: 224.4 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2745.
-Total: 5.004428 ms (FindLiveObjects: 0.321774 ms CreateObjectMapping: 0.254790 ms MarkObjects: 4.370222 ms  DeleteObjects: 0.055841 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2708.
+Total: 5.557560 ms (FindLiveObjects: 0.420864 ms CreateObjectMapping: 0.260351 ms MarkObjects: 4.727254 ms  DeleteObjects: 0.087109 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1478,80 +708,295 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 117.689073 seconds.
-  path: Assets/Scripts/Player/PlayerCollision.cs
-  artifactKey: Guid(3dc524cba30984804a600d3da33aa111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerCollision.cs using Guid(3dc524cba30984804a600d3da33aa111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62194f9178080522bdb0e3ec1c7d7806') in 0.022382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 764.369512 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(93b19dc499c874b0583613ed5578e35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(93b19dc499c874b0583613ed5578e35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98044a23061b122e32934d115cf74722') in 0.024116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1369.555395 seconds.
-  path: Assets/PlayerMovement.cs
-  artifactKey: Guid(dda4547c41f104505a69f9f1a897f37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerMovement.cs using Guid(dda4547c41f104505a69f9f1a897f37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1defc9d66404e78de28f673183d48642') in 0.003548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.089955 seconds.
-  path: Assets/Scripts/Player/PlayerMovement.cs
-  artifactKey: Guid(a59ec9260fa44dd4ea105f57e6aed90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(a59ec9260fa44dd4ea105f57e6aed90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb10cf042924aa84d2f07a976240389') in 0.011117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 99.910380 seconds.
-  path: Assets/Scripts/Player/PlayerMovement.cs
-  artifactKey: Guid(a59ec9260fa44dd4ea105f57e6aed90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(a59ec9260fa44dd4ea105f57e6aed90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6334867960a2f60405427ccf860270') in 0.012858 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002318 seconds.
+Registered in 0.002382 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.040 seconds
+- Completed reload, in  2.072 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2040ms)
-		BeginReloadAssembly (205ms)
+	ReloadAssembly (2073ms)
+		BeginReloadAssembly (217ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (109ms)
-		EndReloadAssembly (1706ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (1742ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (670ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (580ms)
+			SetupTypeCache (646ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (619ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (379ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (397ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 231.4 MB.
-System memory in use after: 231.6 MB.
+System memory in use before: 224.4 MB.
+System memory in use after: 224.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2748.
-Total: 5.733401 ms (FindLiveObjects: 0.427999 ms CreateObjectMapping: 0.275556 ms MarkObjects: 4.994828 ms  DeleteObjects: 0.033432 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2711.
+Total: 5.057721 ms (FindLiveObjects: 0.380722 ms CreateObjectMapping: 0.237593 ms MarkObjects: 4.397337 ms  DeleteObjects: 0.039654 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002245 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.175 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2176ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (1823ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (705ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (622ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 224.6 MB.
+System memory in use after: 224.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2714.
+Total: 5.535228 ms (FindLiveObjects: 0.382107 ms CreateObjectMapping: 0.244762 ms MarkObjects: 4.862421 ms  DeleteObjects: 0.044189 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2174ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (1845ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (728ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (644ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (191ms)
+				ProcessInitializeOnLoadAttributes (419ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 224.9 MB.
+System memory in use after: 225.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2717.
+Total: 5.128125 ms (FindLiveObjects: 0.342612 ms CreateObjectMapping: 0.259382 ms MarkObjects: 4.489154 ms  DeleteObjects: 0.035610 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.364 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2365ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (2012ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (888ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (644ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.1 MB.
+System memory in use after: 225.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2720.
+Total: 7.500764 ms (FindLiveObjects: 0.708124 ms CreateObjectMapping: 0.611627 ms MarkObjects: 6.132764 ms  DeleteObjects: 0.045570 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.215 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7216ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (6861ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2248ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (163ms)
+			SetupLoadedEditorAssemblies (3816ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (794ms)
+				ProcessInitializeOnLoadAttributes (2900ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 13.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.3 MB.
+System memory in use after: 225.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2723.
+Total: 10.803708 ms (FindLiveObjects: 0.385758 ms CreateObjectMapping: 0.151637 ms MarkObjects: 10.210872 ms  DeleteObjects: 0.052473 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.9 MB.
+System memory in use after: 182.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2723.
+Total: 4.183696 ms (FindLiveObjects: 0.231854 ms CreateObjectMapping: 0.105322 ms MarkObjects: 3.800621 ms  DeleteObjects: 0.044737 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1565,55 +1010,986 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.380050 seconds.
-  path: Assets/Scripts/Player/PlayerMovement.cs
-  artifactKey: Guid(a59ec9260fa44dd4ea105f57e6aed90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(a59ec9260fa44dd4ea105f57e6aed90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6057f023a3f9132bb87e57f041f1e8b2') in 0.017665 seconds 
+  Time since last request: 418.111198 seconds.
+  path: Assets/Smooth.physicsMaterial2D
+  artifactKey: Guid(3143aa6dd34504cbc91c6303364084eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Smooth.physicsMaterial2D using Guid(3143aa6dd34504cbc91c6303364084eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104d97caf36a152b43ee2d06b462ec3a') in 0.019547 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.0 MB.
+System memory in use after: 182.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2723.
+Total: 4.979906 ms (FindLiveObjects: 0.237052 ms CreateObjectMapping: 0.112881 ms MarkObjects: 4.598837 ms  DeleteObjects: 0.030025 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008222 seconds.
+Registered in 0.003088 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.351 seconds
+- Completed reload, in  2.280 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6366ms)
-		BeginReloadAssembly (1789ms)
+	ReloadAssembly (2281ms)
+		BeginReloadAssembly (228ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (121ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (1127ms)
-		EndReloadAssembly (4267ms)
-			LoadAssemblies (766ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (1961ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (164ms)
-			SetupLoadedEditorAssemblies (1252ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (1913ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (715ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (668ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.5 MB.
+System memory in use after: 225.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2726.
+Total: 5.170694 ms (FindLiveObjects: 0.359710 ms CreateObjectMapping: 0.268632 ms MarkObjects: 4.506519 ms  DeleteObjects: 0.032932 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 427.876863 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png
+  artifactKey: Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png using Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05355d407b37efb817f8c42ff417f54') in 1.060034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png
+  artifactKey: Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png using Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6180169f95e1b2c5f9616e0b64f8e100') in 0.231842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png
+  artifactKey: Guid(0b4768f2ab470f44ca33fa59836a0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png using Guid(0b4768f2ab470f44ca33fa59836a0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fb3a00d6048bd2aa00587ec699a039') in 0.104632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png
+  artifactKey: Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png using Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982ad3a1315553bdb8c2d4a344b08c14') in 0.058762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003276 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png
+  artifactKey: Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png using Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8e33d192513fd13f09acd410b4acb4') in 0.217772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png
+  artifactKey: Guid(320f4eb52e227b446830a1f6fd691fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png using Guid(320f4eb52e227b446830a1f6fd691fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2ea4d9f6eef69d3d092634665a0972') in 0.051200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png
+  artifactKey: Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png using Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f5300acbea6b873afb04825d16983c') in 0.021768 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003364 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.322 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2323ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (141ms)
+		EndReloadAssembly (1946ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (758ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (230ms)
-				ProcessInitializeOnLoadAttributes (900ms)
-				ProcessInitializeOnLoadMethodAttributes (98ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (222ms)
+				ProcessInitializeOnLoadAttributes (427ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.2 MB.
+System memory in use after: 230.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2739.
+Total: 8.453622 ms (FindLiveObjects: 0.689394 ms CreateObjectMapping: 0.360259 ms MarkObjects: 7.358392 ms  DeleteObjects: 0.043241 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.155 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2156ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (1827ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (717ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (619ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.3 MB.
+System memory in use after: 230.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2742.
+Total: 5.311554 ms (FindLiveObjects: 0.345873 ms CreateObjectMapping: 0.267611 ms MarkObjects: 4.663949 ms  DeleteObjects: 0.032033 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003689 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.229 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2230ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (1864ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (735ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (616ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (399ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.5 MB.
+System memory in use after: 230.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2745.
+Total: 5.259340 ms (FindLiveObjects: 0.335872 ms CreateObjectMapping: 0.267288 ms MarkObjects: 4.612237 ms  DeleteObjects: 0.042539 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002234 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2468ms)
+		BeginReloadAssembly (242ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (2109ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (807ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (767ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (221ms)
+				ProcessInitializeOnLoadAttributes (481ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.7 MB.
+System memory in use after: 230.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2748.
+Total: 5.275431 ms (FindLiveObjects: 0.370581 ms CreateObjectMapping: 0.356236 ms MarkObjects: 4.511208 ms  DeleteObjects: 0.035541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002243 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.096 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2096ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (1755ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (690ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (589ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.9 MB.
+System memory in use after: 231.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2751.
+Total: 4.911349 ms (FindLiveObjects: 0.334706 ms CreateObjectMapping: 0.260847 ms MarkObjects: 4.273702 ms  DeleteObjects: 0.040317 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.553 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7554ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (7221ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (4051ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (341ms)
+			SetupLoadedEditorAssemblies (1055ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (407ms)
+				ProcessInitializeOnLoadAttributes (588ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.1 MB.
+System memory in use after: 231.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2754.
+Total: 5.098583 ms (FindLiveObjects: 0.353273 ms CreateObjectMapping: 0.265110 ms MarkObjects: 4.444144 ms  DeleteObjects: 0.034849 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.7 MB.
+System memory in use after: 187.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2754.
+Total: 4.420874 ms (FindLiveObjects: 0.239379 ms CreateObjectMapping: 0.113972 ms MarkObjects: 4.037269 ms  DeleteObjects: 0.029129 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2111ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (1767ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (696ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (594ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.3 MB.
+System memory in use after: 231.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2757.
+Total: 4.995914 ms (FindLiveObjects: 0.314155 ms CreateObjectMapping: 0.244328 ms MarkObjects: 4.405439 ms  DeleteObjects: 0.030725 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6805ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (6462ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2883ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (766ms)
+			SetupLoadedEditorAssemblies (797ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (272ms)
+				ProcessInitializeOnLoadAttributes (477ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.4 MB.
+System memory in use after: 231.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2760.
+Total: 5.076908 ms (FindLiveObjects: 0.349794 ms CreateObjectMapping: 0.264696 ms MarkObjects: 4.427321 ms  DeleteObjects: 0.033442 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.0 MB.
+System memory in use after: 188.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2760.
+Total: 4.760071 ms (FindLiveObjects: 0.332537 ms CreateObjectMapping: 0.258243 ms MarkObjects: 4.147522 ms  DeleteObjects: 0.020739 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002337 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.177 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2178ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (1848ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (716ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (637ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (425ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 231.6 MB.
 System memory in use after: 231.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2751.
-Total: 25.391424 ms (FindLiveObjects: 4.057148 ms CreateObjectMapping: 3.406352 ms MarkObjects: 17.846776 ms  DeleteObjects: 0.078330 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2763.
+Total: 4.939460 ms (FindLiveObjects: 0.404574 ms CreateObjectMapping: 0.259676 ms MarkObjects: 4.241949 ms  DeleteObjects: 0.031986 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.665 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5680ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (5330ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1601ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (437ms)
+			SetupLoadedEditorAssemblies (2689ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (606ms)
+				ProcessInitializeOnLoadAttributes (1977ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (52ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.8 MB.
+System memory in use after: 232.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2766.
+Total: 7.466891 ms (FindLiveObjects: 0.421959 ms CreateObjectMapping: 0.176362 ms MarkObjects: 6.642608 ms  DeleteObjects: 0.223269 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.4 MB.
+System memory in use after: 188.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2766.
+Total: 4.236887 ms (FindLiveObjects: 0.242673 ms CreateObjectMapping: 0.105152 ms MarkObjects: 3.858525 ms  DeleteObjects: 0.029347 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.411 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2412ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (2031ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (684ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (787ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (222ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.0 MB.
+System memory in use after: 232.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2769.
+Total: 10.523480 ms (FindLiveObjects: 0.686520 ms CreateObjectMapping: 0.184582 ms MarkObjects: 9.610197 ms  DeleteObjects: 0.039428 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002250 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.188 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2189ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (1852ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (738ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (636ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (411ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.2 MB.
+System memory in use after: 232.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2772.
+Total: 4.929417 ms (FindLiveObjects: 0.335356 ms CreateObjectMapping: 0.256704 ms MarkObjects: 4.306190 ms  DeleteObjects: 0.029754 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.221 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7222ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (6857ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2248ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (472ms)
+			SetupLoadedEditorAssemblies (2685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (916ms)
+				ProcessInitializeOnLoadAttributes (1684ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.4 MB.
+System memory in use after: 232.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2775.
+Total: 6.817879 ms (FindLiveObjects: 0.373691 ms CreateObjectMapping: 0.265605 ms MarkObjects: 6.130577 ms  DeleteObjects: 0.045619 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.0 MB.
+System memory in use after: 189.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2775.
+Total: 5.787912 ms (FindLiveObjects: 0.335431 ms CreateObjectMapping: 0.252279 ms MarkObjects: 5.165907 ms  DeleteObjects: 0.032866 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002316 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.167 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2168ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (1742ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (643ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (615ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.5 MB.
+System memory in use after: 232.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2778.
+Total: 4.803779 ms (FindLiveObjects: 0.349632 ms CreateObjectMapping: 0.252859 ms MarkObjects: 4.169866 ms  DeleteObjects: 0.030055 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
