@@ -7,17 +7,20 @@ public class Player : MonoBehaviour {
 	internal PlayerMovement move;
 	[SerializeField]
 	internal PlayerCollision collision;
-	
-	internal Rigidbody2D rb;
-	internal SpriteRenderer sr;
-	internal Animator anim;
+	[SerializeField]
+	internal PlayerAnimation anim;
+
+	public Rigidbody2D rb;
+	public SpriteRenderer sr;
+	public Animator animator;
 
     void Start() {
  		rb = GetComponent<Rigidbody2D>();
 		sr = GetComponent<SpriteRenderer>();
-		anim = GetComponent<Animator>();
+		animator = GetComponent<Animator>();
 
 		move = GetComponent<PlayerMovement>();
 		collision = GetComponent<PlayerCollision>();
+		anim = GetComponent<PlayerAnimation>();
     }
 }

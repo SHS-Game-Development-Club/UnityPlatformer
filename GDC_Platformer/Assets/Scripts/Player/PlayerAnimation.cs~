@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerAnimation : MonoBehaviour {
+	[SerializeField]
+	Player playerScript;
+
+    void Start() {
+		playerScript = GetComponent<Player>();
+    }
+
+	public void updAnim(string newState) {
+		if(curState == newState)
+			return;
+		playerScript.animator.Play(newState);
+		curState = newState;
+	}
+}

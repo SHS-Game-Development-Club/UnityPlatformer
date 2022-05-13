@@ -20,17 +20,16 @@ public class PlayerMovement : MonoBehaviour {
     public float gravityScale;
 	private bool isJumping;
 
-	[Header("Coyote Time & Jump Buffering")]
+	//Coyote Time + Jump Buffering
 	private float coyoteTime = 0.2f;
 	private float coyoteTimeCounter;
 	private float jumpBufferTime = 0.2f;
 	private float jumpBufferCounter;
 
-	//animation stuff
-	const string idle = "Player_Idle";
-	const string run = "Player_Run";
-	const string jump = "Player_Jump";
-	private string curState = "Player_Idle";
+	//Animation
+	string idle = "PIdle";
+	string run = "PRun";
+	string jump = "Jump";
 
     private void Start() {
 		playerScript = GetComponent<Player>();
@@ -69,19 +68,16 @@ public class PlayerMovement : MonoBehaviour {
 	public void Move() {
 		if(Input.GetAxisRaw("Horizontal") != 0) {
 			playerScript.sr.flipX = (Input.GetAxisRaw("Horizontal") == 1 ? false : true);
-			updAnim(run);
+			playerScript.anim.updAnim(run);
 		} else {
-			updAnim(idle);
+			playerScript.anim.updAnim(idle);
 		}
-
         float targetSpeed = Input.GetAxisRaw("Horizontal") * moveSpeed;
         float speedDiff = targetSpeed - playerScript.rb.velocity.x;
         float accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? acceleration : deceleration;
         float movement = Mathf.Pow(Mathf.Abs(speedDiff) * accelRate, velocityPower) * Mathf.Sign(speedDiff);
         playerScript.rb.AddForce(movement * Vector2.right);
 
-		//anim.SetFloat("Speed", Mathf.Abs(targetSpeed));
-		
 		if(playerScript.collision.isGrounded() == true && targetSpeed == 0) {
 			float amount = Mathf.Min(Mathf.Abs(playerScript.rb.velocity.x), Mathf.Abs(friction));
 			amount *= Mathf.Sign(playerScript.rb.velocity.x);
@@ -95,10 +91,4 @@ public class PlayerMovement : MonoBehaviour {
 		isJumping = false;
 	}
 
-	void updAnim(string newState) {
-		if(curState == newState)
-			return;
-		playerScript.anim.Play(newState);
-		curState = newState;
-	}
 }
