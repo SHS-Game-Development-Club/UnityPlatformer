@@ -9,6 +9,7 @@ public class Player : MonoBehaviour {
 	internal PlayerCollision collision;
 	[SerializeField]
 	internal PlayerAnimation anim;
+
 	public Rigidbody2D rb;
 	public SpriteRenderer sr;
 	public Animator animator;

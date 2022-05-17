@@ -14,7 +14,7 @@ public class PlayerAnimation : MonoBehaviour {
 	public void updAnim(string newState) {
 		if(curState == newState)
 			return;
-		playerScript.animator.Play(newState);
+		playerScript.anim.Play(newState);
 		curState = newState;
 	}
 }

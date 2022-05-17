@@ -47,37 +47,37 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Packages\com.unity.2d.sprite\Editor\Interface\IEvent.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpritePolygonModeModuleView.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorHandles.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\TextureImporterDataProviderImplementation.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleView.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpritePolygonModeModule.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\Interface\ITexture.cs" />
-     <Compile Include="Packages\com.unity.2d.sprite\Editor\AssemblyInfo.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleBase.cs" />
+     <Compile Include="Packages\com.unity.2d.sprite\Editor\ShapeEditor\ShapeEditor.cs" />
+     <Compile Include="Packages\com.unity.2d.sprite\Editor\Interface\IGUIUtility.cs" />
+     <Compile Include="Packages\com.unity.2d.sprite\Editor\Interface\ISpriteEditorDataProvider.cs" />
+     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleBaseView.cs" />
+     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteUtilityWindow.cs" />
+     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteSecondaryTexturesModule.cs" />
+     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteEditorData.cs" />
+     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorUtility.cs" />
+     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\TextureImporterDataProvider.cs" />
+     <Compile Include="Packages\com.unity.2d.sprite\Editor\Interface\IEvent.cs" />
+     <Compile Include="Packages\com.unity.2d.sprite\Editor\AssemblyInfo.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\Interface\IHandles.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\ObjectMenuCreation\ItemCreationUtility.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\Obsolete\ObsoleteSupport.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\ObjectMenuCreation\MenuItems.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModule.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\ShapeEditor\ShapeEditorRectSelection.cs" />
-     <Compile Include="Packages\com.unity.2d.sprite\Editor\ShapeEditor\ShapeEditor.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorMenu.cs" />
-     <Compile Include="Packages\com.unity.2d.sprite\Editor\Interface\IGUIUtility.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\ISpriteEditorModule.cs" />
-     <Compile Include="Packages\com.unity.2d.sprite\Editor\Interface\ISpriteEditorDataProvider.cs" />
-     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleBaseView.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteOutlineModule.cs" />
-     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteUtilityWindow.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorWindow.cs" />
-     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteSecondaryTexturesModule.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\Interface\IUndoSystem.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\Interface\IAssetDatabase.cs" />
-     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteEditorData.cs" />
-     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorUtility.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpritePhysicsShapeModule.cs" />
-     <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditorModule\TextureImporterDataProvider.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteRect.cs" />
      <Compile Include="Packages\com.unity.2d.sprite\Editor\Interface\IGL.cs" />
      <None Include="Packages\com.unity.2d.sprite\Editor\UI\SpriteEditor\SpriteFrameModuleInspector.uxml" />
@@ -313,19 +313,22 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

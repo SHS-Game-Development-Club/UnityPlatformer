@@ -47,24 +47,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\Tess.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\UTess2D\Tessellator.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\SpriteShapeGenerator.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\SplineUtility.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\Dict.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\BezierUtility.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\Spline.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\PriorityHeap.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\SpriteShapeController.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\PriorityQueue.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\UTess2D\ArraySlice.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\SpriteShape.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\Sweep.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\Mesh.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\AssemblyInfo.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\SpriteShapeGeometryCache.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\Geom.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\MeshUtils.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\Tess.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\Dict.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\BezierUtility.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\Spline.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\PriorityHeap.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\SpriteShapeController.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\UTess2D\ArraySlice.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\SpriteShape.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\Sweep.cs" />
      <None Include="Packages\com.unity.2d.spriteshape\Runtime\External\LibTessDotNet\LICENSE.txt" />
      <None Include="Packages\com.unity.2d.spriteshape\Runtime\Unity.2D.SpriteShape.Runtime.asmdef" />
  <Reference Include="UnityEngine">
@@ -296,16 +296,19 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

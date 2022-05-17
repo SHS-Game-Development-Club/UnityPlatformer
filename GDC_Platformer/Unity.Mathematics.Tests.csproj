@@ -47,76 +47,76 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool4x3.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint4x4.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint3x4.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt3x4.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble2x2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat4x3.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool3x2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat3x2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint3x3.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool2x4.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint2x3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt3x3.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint3x2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint4x2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt4x3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt3.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\TestCompilerAttribute.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\TestRandom.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool4x2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt2x4.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt2x3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat4x4.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint4x3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat2x2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt3x2.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt2x2.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestRigidTransform.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool3x4.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestMath.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt4.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat3x3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool4x4.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat2x4.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint2x2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt4x2.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble2x4.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat2.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool4.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat4.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint2x4.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat4x2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestMatrix.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble4.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble3x4.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble4x2.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUtils.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble3x2.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt4x4.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool2x2.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt2.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool3x3.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestQuaternion.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool4x3.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint4x4.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint3x4.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt3x4.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble2x2.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool3x2.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool2x4.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool2.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\TestCompilerAttribute.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\TestRandom.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool4x2.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt2x3.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt2x2.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool3.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestMath.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt4.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble2x4.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool4.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat4.gen.cs" />
+     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestHalf.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUint4.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestMath.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat2x3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBitmanipulation.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble3x4.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble4x4.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble4x2.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestUtils.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble3.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble3x2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\TestMath2.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt4x4.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestInt2.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool2x3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble2x3.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool2x2.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestBool3x3.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestFloat3x4.gen.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble3x3.gen.cs" />
-     <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestQuaternion.cs" />
      <Compile Include="Packages\com.unity.mathematics\Tests\Tests\Shared\TestDouble4x3.gen.cs" />
      <None Include="Packages\com.unity.mathematics\Tests\Unity.Mathematics.Tests.asmdef" />
  <Reference Include="UnityEngine">
@@ -348,7 +348,7 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

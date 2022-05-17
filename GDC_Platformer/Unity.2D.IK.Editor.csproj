@@ -48,12 +48,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Packages\com.unity.2d.animation\IK\Editor\IKEditorManager.cs" />
-     <Compile Include="Packages\com.unity.2d.animation\IK\Editor\Inspectors\CCDSolver2DEditor.cs" />
-     <Compile Include="Packages\com.unity.2d.animation\IK\Editor\Inspectors\IKManager2DEditor.cs" />
-     <Compile Include="Packages\com.unity.2d.animation\IK\Editor\Inspectors\LimbSolver2DEditor.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Editor\IKGizmos.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Editor\Inspectors\Solver2DEditor.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Editor\AssemblyInfo.cs" />
+     <Compile Include="Packages\com.unity.2d.animation\IK\Editor\Inspectors\CCDSolver2DEditor.cs" />
+     <Compile Include="Packages\com.unity.2d.animation\IK\Editor\Inspectors\IKManager2DEditor.cs" />
+     <Compile Include="Packages\com.unity.2d.animation\IK\Editor\Inspectors\LimbSolver2DEditor.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Editor\Inspectors\FabrikSolver2DEditor.cs" />
      <None Include="Packages\com.unity.2d.animation\IK\Editor\Unity.2D.IK.Editor.asmdef" />
  <Reference Include="UnityEngine">
@@ -285,19 +285,22 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

@@ -39,9 +39,9 @@ public class PlayerMovement : MonoBehaviour {
 		Attack();
 		if(playerScript.collision.isGrounded()) {
 			if(Input.GetAxisRaw("Horizontal") != 0)
-				playerScript.anim.updAnim(run);
+				playerScript.anim.SetBool("Run", true);
 			else
-				playerScript.anim.updAnim(idle);
+				playerScript.anim.SetBool("Run", false);
 		}
 		if(playerScript.collision.isGrounded())
 			coyoteTimeCounter = coyoteTime;
@@ -49,7 +49,6 @@ public class PlayerMovement : MonoBehaviour {
 			coyoteTimeCounter -= Time.deltaTime;
 
 		if(Input.GetButtonDown("Jump")) {
-			playerScript.anim.updAnim(jump);
 			jumpBufferCounter = jumpBufferTime;
 		} else
 			jumpBufferCounter -= Time.deltaTime;
@@ -75,7 +74,7 @@ public class PlayerMovement : MonoBehaviour {
 	
 	public void Attack() {
 		if(Input.GetButtonDown("Fire1"))
-			playerScript.anim.updAnim("Player_Attack");
+			playerScript.anim.SetBool("Attack", true);
 	}
 
 	public void Move() {
@@ -97,7 +96,9 @@ public class PlayerMovement : MonoBehaviour {
 
 	public IEnumerator JumpCD() {
 		isJumping = true;
+		playerScript.anim.SetBool("Jump", true);
 		yield return new WaitForSeconds(0.4f);
+		playerScript.anim.SetBool("Jump", false);
 		isJumping = false;
 	}
 }

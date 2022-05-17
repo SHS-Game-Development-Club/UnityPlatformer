@@ -47,25 +47,25 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\AngleRangeView.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\ContextMenu.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\ObjectMenuCreation\GameObjectCreation.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\AssemblyInfo.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeAnalytics.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeControllerEditor.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\AngleRangeController.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeEditorAnalytics.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeHandleUtility.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\AngleRangeView.cs" />
+     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\ContextMenu.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeEditor.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeEditorTool.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\EditorSpriteGUIUtility.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeAnalytics.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeEditorGUI.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\ObjectMenuCreation\AssetCreation.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeControllerEditor.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteSelector.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SceneDragAndDrop.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\AngleRangeGUI.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeEditorUtility.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\AngleRangeController.cs" />
      <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeAssetPostProcessor.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeEditorAnalytics.cs" />
-     <Compile Include="Packages\com.unity.2d.spriteshape\Editor\SpriteShapeHandleUtility.cs" />
      <None Include="Packages\com.unity.2d.spriteshape\Editor\Handles\Shaders\Sprites-Inspector.shader" />
      <None Include="Packages\com.unity.2d.spriteshape\Editor\Unity.2D.SpriteShape.Editor.asmdef" />
  <Reference Include="UnityEngine">
@@ -297,19 +297,22 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

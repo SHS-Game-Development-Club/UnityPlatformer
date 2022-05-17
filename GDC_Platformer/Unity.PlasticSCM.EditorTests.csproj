@@ -47,20 +47,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Mock\PlasticApiMock.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\AssetMenu\SelectedAssetGroupInfoTests.cs" />
-     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\ProjectDownloader\ParseArgumentsTest.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Views\IncomingChanges\Developer\IsCurrentTests.cs" />
-     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Views\IncomingChanges\Developer\UnityIncomingChangesTreeTests.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Mock\BuildWorkspaceTreeNode.cs" />
+     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\UI\TextureLoadTests.cs" />
+     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Views\IncomingChanges\Developer\IsResolvedTests.cs" />
+     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Views\IncomingChanges\Developer\MergetTreeResultMock.cs" />
+     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Mock\PlasticApiMock.cs" />
+     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\ProjectDownloader\ParseArgumentsTest.cs" />
+     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Views\IncomingChanges\Developer\UnityIncomingChangesTreeTests.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Views\Diff\UnityDiffTreeTests.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\UI\EditorVersionTests.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Views\IncomingChanges\Gluon\UnityIncomingChangesTreeTests.cs" />
-     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\UI\TextureLoadTests.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\ProjectDownloader\CommandLineArgumentsTests.cs" />
-     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Views\IncomingChanges\Developer\IsResolvedTests.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Views\PendingChanges\UnityPendingChangesTreeTests.cs" />
-     <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Views\IncomingChanges\Developer\MergetTreeResultMock.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\AssetMenu\AssetMenuUpdaterTests.cs" />
      <None Include="Packages\com.unity.collab-proxy\Tests\Editor\PlasticSCM\Unity.PlasticSCM.EditorTests.asmdef" />
  <Reference Include="UnityEngine">
@@ -292,10 +292,10 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

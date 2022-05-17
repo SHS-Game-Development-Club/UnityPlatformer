@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerAnimation : MonoBehaviour {
 	[SerializeField]
 	Player playerScript;
+	public string curState;
 
     void Start() {
 		playerScript = GetComponent<Player>();

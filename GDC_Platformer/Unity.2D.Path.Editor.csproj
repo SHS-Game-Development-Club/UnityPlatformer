@@ -47,53 +47,53 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\EditablePathUtility.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\GUIState.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\IGUIState.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\Shapes\IShape.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\EditorTool\ScriptablePath.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\BezierUtility.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\SliderAction.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\Selection\PointRectSelector.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditorTool\ScriptablePathInspector.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\PathEditor.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\MultipleEditablePathController.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\Drawer.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\Control.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\RectSelector.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditorTool\PathEditorToolExtensions.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditorTool\GenericScriptablePathInspector.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\EditablePathController.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\ISnapping.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\ClickAction.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditorTool\ScriptableData.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\Shapes\Spline.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\EditablePath.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\Shapes\Polygon.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\DefaultControl.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\HoveredControlAction.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\Snapping.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditorTool\PathComponentEditor.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\IDrawer.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditorTool\PathEditorTool.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\Shapes\ShapeExtensions.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\GenericDefaultControl.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\CreatePointAction.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\IEditablePath.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\Selection\ISelection.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\Selection\ISelectable.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\GenericControl.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\GUIAction.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\IUndoObject.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\Selection\SerializableSelection.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\IEditablePathController.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\Selection\ISelector.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditorTool\GenericScriptablePath.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\Selection\IndexedSelection.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\CommandAction.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\EditablePathExtensions.cs" />
-     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\LayoutData.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\ControlPoint.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\EditablePathUtility.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\IGUIState.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\EditorTool\ScriptablePath.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\Selection\PointRectSelector.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\Drawer.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\EditablePath\ISnapping.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\ClickAction.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\Shapes\Spline.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\Shapes\Polygon.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\Shapes\ShapeExtensions.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\GenericDefaultControl.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\Selection\ISelection.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\GUIAction.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\Selection\SerializableSelection.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\Selection\ISelector.cs" />
+     <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\LayoutData.cs" />
      <Compile Include="Packages\com.unity.2d.path\Editor\IMGUI\GUIFramework\GUISystem.cs" />
      <None Include="Packages\com.unity.2d.path\Editor\Unity.2D.Path.Editor.asmdef" />
  <Reference Include="UnityEngine">
@@ -325,19 +325,22 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

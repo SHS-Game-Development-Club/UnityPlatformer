@@ -47,18 +47,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\CCDSolver2D.cs" />
-     <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\Solver2DMenuAttribute.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\IKManager2D.cs" />
-     <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\Solver2D.cs" />
-     <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\IKManager2DEditorData.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\LimbSolver2D.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\Solvers\FABRIK2D.cs" />
+     <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\IKUtility.cs" />
+     <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\CCDSolver2D.cs" />
+     <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\Solver2DMenuAttribute.cs" />
+     <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\Solver2D.cs" />
+     <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\IKManager2DEditorData.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\Solvers\CCD2D.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\IKChain2D.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\Solvers\Limb.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\AssemblyInfo.cs" />
-     <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\IKUtility.cs" />
      <Compile Include="Packages\com.unity.2d.animation\IK\Runtime\FabrikSolver2D.cs" />
      <None Include="Packages\com.unity.2d.animation\IK\Runtime\Unity.2D.IK.Runtime.asmdef" />
  <Reference Include="UnityEngine">
@@ -290,16 +290,19 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/Users/jonny/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>/Users/james/Documents/GitHub/UnityPlatformer/GDC_Platformer/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

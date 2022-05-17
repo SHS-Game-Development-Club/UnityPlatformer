@@ -6,7 +6,11 @@
 	<dict>
 		<key>Resources/Data/Managed/Assembly-CSharp.dll</key>
 		<data>
-		0Z1jC4IFW17XdyneTu37UKySbNA=
+		CD+SXjEUr/Km2ZcHPjG+R/X2kOI=
+		</data>
+		<key>Resources/Data/Managed/Cinemachine.dll</key>
+		<data>
+		ORech8sLxd33FTWbkMpH8OXnRH8=
 		</data>
 		<key>Resources/Data/Managed/Mono.Security.dll</key>
 		<data>
@@ -123,6 +127,30 @@
 		<key>Resources/Data/Managed/Unity.Mathematics.dll</key>
 		<data>
 		vx3rGFKXNSBnJoRIxoAWjOt5gcE=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll</key>
+		<data>
+		8QsogZwnueB4XvqpcPUeQ0XF6Vg=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll</key>
+		<data>
+		VtGnqcYHuNzZ5ZrAthh3ZM+7C/E=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll</key>
+		<data>
+		2l+iYTFcU4fHIumLXhn9095TXjo=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</key>
+		<data>
+		d4q2YZItv6a8aCSyApw1VQSUVXA=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll</key>
+		<data>
+		WCekcTv139D0B56UTSR+z3/Gc0k=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll</key>
+		<data>
+		BG7E87M7UWRMYKGBW/NYJzxStL4=
 		</data>
 		<key>Resources/Data/Managed/Unity.TextMeshPro.dll</key>
 		<data>
@@ -410,11 +438,11 @@
 		</data>
 		<key>Resources/Data/RuntimeInitializeOnLoads.json</key>
 		<data>
-		j+EHdhyVhuoJRGaIMs4XBHLIrO4=
+		ilOxgOzc7f726+68ABJcBO1oLwg=
 		</data>
 		<key>Resources/Data/ScriptingAssemblies.json</key>
 		<data>
-		2QjsWksnsml/pigS59ieFyEp21I=
+		CPg3PQezzd0v6mg4h46jmUhAzX8=
 		</data>
 		<key>Resources/Data/app.info</key>
 		<data>
@@ -426,23 +454,35 @@
 		</data>
 		<key>Resources/Data/globalgamemanagers</key>
 		<data>
-		OGvu77Cn/b06LD2W1tjZz2qYg7U=
+		gkD/oykGI+o2w88GpAXjN0LX/x0=
 		</data>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<data>
-		rPtndXDT3/Qp9SSg5vibDK5ljpo=
+		sk2NOrvjOb3qniIw1OORB3AXFLk=
+		</data>
+		<key>Resources/Data/globalgamemanagers.assets.resS</key>
+		<data>
+		/Wl2brX8mR1ToVqWggDxZeyDbq8=
 		</data>
 		<key>Resources/Data/level0</key>
 		<data>
-		33EJxIggkpLoJWRpr5qzRbmL8LY=
+		r4KJchCEUIcsVm3AUBP9cFzq5QE=
+		</data>
+		<key>Resources/Data/resources.assets</key>
+		<data>
+		lxUlU12c1tFQtjjDZmUMmqOK2HM=
+		</data>
+		<key>Resources/Data/resources.assets.resS</key>
+		<data>
+		88b1oPRzqvkSfMEtt+sWKZ2jxbk=
 		</data>
 		<key>Resources/Data/sharedassets0.assets</key>
 		<data>
-		EPRR4p9MePc3K9NxF6K1febYJmk=
+		N1GjHxNtiRc0rwOm+zmzzyTptSw=
 		</data>
 		<key>Resources/Data/sharedassets0.assets.resS</key>
 		<data>
-		lBgmUq9dA/bkYfB1M+It84AP72I=
+		ch6MWKVBbO7+v8RbOTa0k+ui2j8=
 		</data>
 		<key>Resources/DefaultPreferences.plist</key>
 		<data>
@@ -620,7 +660,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FXPV0tGpT4tejQIDiMxGCb9oM9Z8xeg6fWK4eoxDkxI=
+			LgbIxI4XaA2Z/T5z+rTSzEvzSuQReaMRmLCL+XXLVrI=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Cinemachine.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KznYfX+AD7dj26ixh+lVWb6krHc9RfHqHFGi0MLCz50=
 			</data>
 		</dict>
 		<key>Resources/Data/Managed/Mono.Security.dll</key>
@@ -824,6 +871,48 @@
 			<key>hash2</key>
 			<data>
 			mgAcEtQDDvQO7YvrrzYUBVRcHaUEEJWJNNq2fKw6WG0=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a6EyL/w59puJJXRrbxY2NfRRgcwZML2FwiDFAdkM1HA=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3+ubyiKC0E0q5Km5904UEnkOJCVDcN8XtFTDrDfyMqM=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fDkTre6oThkC7c61NcGNw/lH8CrxMlqDpm58CpSzcOc=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MHWmVg/vpVc8TzxZ+usj6D+vSdL+3CaioSZX3npIRmQ=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F1PbGd5Ezz+ion9AxyyYul5RLB7CNKJkb/P2Zul9iS4=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a9IwVihuCr7a29AJRheeiIXNf7tB+QzQF9VsbbDJAu0=
 			</data>
 		</dict>
 		<key>Resources/Data/Managed/Unity.TextMeshPro.dll</key>
@@ -1327,14 +1416,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6o4NzesxBiVrHgTJnlddT9aGWNUBlojgAcytnIPJ8BI=
+			mk6UplnEaujhYljS8gMUm4MJ5xsrTwGmUVWJPfASxzk=
 			</data>
 		</dict>
 		<key>Resources/Data/ScriptingAssemblies.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1lIbEnU+uAlW2wjrpzGz6wE92b/h+Uf7NC7o0zSQz4o=
+			NHJuFScJOIcRTHHrSAH0Vsg8uaSI1YMimHg8Z7cYYrg=
 			</data>
 		</dict>
 		<key>Resources/Data/app.info</key>
@@ -1355,35 +1444,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kNbVrDMWdqLHgiPkOnpRB3GmFaLPVBC+JH9np44UgAc=
+			txJ7qFIRSiBDWZTj2K4aN2Sk0Kta3jyKrgCLBhbprPs=
 			</data>
 		</dict>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dRlyUXJGHGMhYtAKGtlxGgtroLavOA/jAmoQ2docd5c=
+			hyfgsi+Pn2gEv2qv3iPGy0JniZza8++CLRvZPwyHIZM=
+			</data>
+		</dict>
+		<key>Resources/Data/globalgamemanagers.assets.resS</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W+ZGfkZ20T4UZOHDi33qFes8LXmtRn/OcArs+rsa6Ng=
 			</data>
 		</dict>
 		<key>Resources/Data/level0</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VDZd91EoOFw+qGuNdCGqQmx0sKNcPiQn1t9VF9pOO6k=
+			87HxhMZpjjdc7OuYZ8u43KJcDwXR56lwoPJRrSckm1Q=
+			</data>
+		</dict>
+		<key>Resources/Data/resources.assets</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0BpUPvuiti7ZQTrh26qLumzGJpr+kj0NyQcb9Aw3SeE=
+			</data>
+		</dict>
+		<key>Resources/Data/resources.assets.resS</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RDaz8NVeCE1Kpz4fxlnpaBf3Kq6LEeDnNibrOxVNGyU=
 			</data>
 		</dict>
 		<key>Resources/Data/sharedassets0.assets</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UqyyCELCCFFrb63aH4SiI38Pn9RvhyhGGVyM8lQy5S0=
+			qIfQS0H9KWaf88TagjtrLYT0V6Rgw0lJE0+GvULrCHY=
 			</data>
 		</dict>
 		<key>Resources/Data/sharedassets0.assets.resS</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VSlbRj/2nkzyEmkMY3P85RepZ2M45YQxtBDJG6TU18g=
+			SOuwUkQCBM7H7G9kRQtcYkV5+k7Cjpmqa/rGq1QkLnE=
 			</data>
 		</dict>
 		<key>Resources/DefaultPreferences.plist</key>
