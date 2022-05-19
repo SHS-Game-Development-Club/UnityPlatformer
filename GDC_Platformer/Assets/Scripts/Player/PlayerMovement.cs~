@@ -56,10 +56,11 @@ public class PlayerMovement : MonoBehaviour {
 		if(coyoteTimeCounter > 0 && jumpBufferCounter > 0f && !isJumping) {
 			playerScript.rb.velocity = new Vector2(playerScript.rb.velocity.x, jumpForce);
 			jumpBufferCounter = 0f;
-			StartCoroutine(JumpCD());
+			StartCoroutine(JumpCD(0.75f));
 		}
 		if(Input.GetButtonUp("Jump") && playerScript.rb.velocity.y > 0f) {
 			playerScript.rb.velocity = new Vector2(playerScript.rb.velocity.x, playerScript.rb.velocity.y * (1 - jumpCutM));
+			StartCoroutine(JumpCD(0.5f));
 			coyoteTimeCounter = 0f;
 		}
         if(playerScript.rb.velocity.y < 10)
@@ -74,7 +75,7 @@ public class PlayerMovement : MonoBehaviour {
 	
 	public void Attack() {
 		if(Input.GetButtonDown("Fire1"))
-			anim.SetBool("Attack", true);
+			StartCoroutine(AttackCD());
 	}
 
 	public void Move() {
@@ -94,11 +95,17 @@ public class PlayerMovement : MonoBehaviour {
 		}
 	}
 
-	public IEnumerator JumpCD() {
+	public IEnumerator JumpCD(float time) {
 		isJumping = true;
-		anim.SetBool("Jump", true);
-		yield return new WaitForSeconds(0.4f);
-		anim.SetBool("Jump", false);
+		playerScript.anim.SetBool("Jump", true);
+		yield return new WaitForSeconds(time);
+		playerScript.anim.SetBool("Jump", false);
 		isJumping = false;
+	}
+
+	public IEnumerator AttackCD() {
+		playerScript.anim.SetBool("Attack", true);
+		yield return new WaitForSeconds(0.5f);
+		playerScript.anim.SetBool("Attack", false);
 	}
 }

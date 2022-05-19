@@ -83,8 +83,8 @@
      <Compile Include="Packages\com.unity.shadergraph\Editor\Data\Nodes\Artistic\Normal\NormalFromHeightNode.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Data\Implementation\IHasDependencies.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Generation\Processors\PropertyCollector.cs" />
-     <Compile Include="Packages\com.unity.shadergraph\Editor\Generation\Enumerations\KeywordDefinition.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Data\Nodes\Input\Texture\SampleTexture2DArrayNode.cs" />
+     <Compile Include="Packages\com.unity.shadergraph\Editor\Generation\Enumerations\KeywordDefinition.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Data\Nodes\IPropertyFromNode.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Generation\Descriptors\SubShaderDescriptor.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Data\Nodes\Utility\SubGraphNode.cs" />
@@ -527,8 +527,8 @@
      <Compile Include="Packages\com.unity.shadergraph\Editor\Drawing\Colors\NoColors.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Drawing\Colors\ColorManager.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Data\Attributes\BuiltinKeywordAttribute.cs" />
-     <Compile Include="Packages\com.unity.shadergraph\Editor\Data\Nodes\Utility\Logic\NotNode.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Generation\Collections\StructCollection.cs" />
+     <Compile Include="Packages\com.unity.shadergraph\Editor\Data\Nodes\Utility\Logic\NotNode.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Data\Graphs\Texture3DInputMaterialSlot.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Data\SubGraph\SubGraphOutputNode.cs" />
      <Compile Include="Packages\com.unity.shadergraph\Editor\Data\Interfaces\IMayRequireVertexID.cs" />

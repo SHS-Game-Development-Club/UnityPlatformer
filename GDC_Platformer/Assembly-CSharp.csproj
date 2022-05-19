@@ -755,6 +755,16 @@
       <Name>Unity.ShaderGraph.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{3A6BA231-D7CE-D559-EBF5-4D0C0E0B7050}</Project>
+      <Name>Cinemachine</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{16103DF5-9E65-29D5-7B19-0198E7BC3A6D}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
       <Project>{51EE3C6D-B1DA-CC98-48D2-84B5D50E3FB5}</Project>
       <Name>Unity.RenderPipelines.Universal.Editor</Name>
