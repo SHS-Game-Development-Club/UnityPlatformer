@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour {
     public float fallGravityM;
     public float gravityScale;
 	private bool isJumping;
+	private bool wasGrounded;
 
 	//Coyote Time + Jump Buffering
 	private float coyoteTime = 0.2f;
@@ -38,17 +39,20 @@ public class PlayerMovement : MonoBehaviour {
     private void Update() {
 		Attack();
 		if(playerScript.collision.isGrounded()) {
+			coyoteTimeCounter = coyoteTime;
 			if(Input.GetAxisRaw("Horizontal") != 0)
 				playerScript.anim.SetBool("Run", true);
 			else
 				playerScript.anim.SetBool("Run", false);
-		}
-		if(playerScript.collision.isGrounded())
-			coyoteTimeCounter = coyoteTime;
-		else
+		} else {
 			coyoteTimeCounter -= Time.deltaTime;
+		}
+
+		if(playerScript.collision.isGrounded() && !wasGrounded)
+			playerScript.anim.SetBool("Jump", false);
 
 		if(Input.GetButtonDown("Jump")) {
+			playerScript.anim.SetBool("Jump", true);
 			jumpBufferCounter = jumpBufferTime;
 		} else
 			jumpBufferCounter -= Time.deltaTime;
@@ -56,11 +60,10 @@ public class PlayerMovement : MonoBehaviour {
 		if(coyoteTimeCounter > 0 && jumpBufferCounter > 0f && !isJumping) {
 			playerScript.rb.velocity = new Vector2(playerScript.rb.velocity.x, jumpForce);
 			jumpBufferCounter = 0f;
-			StartCoroutine(JumpCD(0.75f));
 		}
 		if(Input.GetButtonUp("Jump") && playerScript.rb.velocity.y > 0f) {
 			playerScript.rb.velocity = new Vector2(playerScript.rb.velocity.x, playerScript.rb.velocity.y * (1 - jumpCutM));
-			StartCoroutine(JumpCD(0.5f));
+			StartCoroutine(JumpCD());
 			coyoteTimeCounter = 0f;
 		}
         if(playerScript.rb.velocity.y < 10)
@@ -71,6 +74,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	void FixedUpdate() {
         Move();
+		wasGrounded = playerScript.collision.isGrounded();
 	}
 	
 	public void Attack() {
@@ -79,15 +83,18 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	public void Move() {
-			if(Input.GetAxisRaw("Horizontal") != 0)
-				playerScript.sr.flipX = (Input.GetAxisRaw("Horizontal") == 1 ? false : true);
+		//Direction of the player
+		if(Input.GetAxisRaw("Horizontal") != 0)
+			playerScript.sr.flipX = (Input.GetAxisRaw("Horizontal") == 1 ? false : true);
 
+		//In charge of acceleration, top speed, and deceleration
         float targetSpeed = Input.GetAxisRaw("Horizontal") * moveSpeed;
         float speedDiff = targetSpeed - playerScript.rb.velocity.x;
         float accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? acceleration : deceleration;
         float movement = Mathf.Pow(Mathf.Abs(speedDiff) * accelRate, velocityPower) * Mathf.Sign(speedDiff);
         playerScript.rb.AddForce(movement * Vector2.right);
 
+		//Friction
 		if(playerScript.collision.isGrounded() == true && targetSpeed == 0) {
 			float amount = Mathf.Min(Mathf.Abs(playerScript.rb.velocity.x), Mathf.Abs(friction));
 			amount *= Mathf.Sign(playerScript.rb.velocity.x);
@@ -95,17 +102,15 @@ public class PlayerMovement : MonoBehaviour {
 		}
 	}
 
-	public IEnumerator JumpCD(float time) {
+	public IEnumerator JumpCD() {
 		isJumping = true;
-		playerScript.anim.SetBool("Jump", true);
-		yield return new WaitForSeconds(time);
-		playerScript.anim.SetBool("Jump", false);
+		yield return new WaitForSeconds(0.4f);
 		isJumping = false;
 	}
 
 	public IEnumerator AttackCD() {
 		playerScript.anim.SetBool("Attack", true);
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(0.2f);
 		playerScript.anim.SetBool("Attack", false);
 	}
 }
